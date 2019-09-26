@@ -1,6 +1,6 @@
 provider "aws" {
   access_key    = "ACCESS_KEY_HERE",
-  secret_key    = "SECRET_KEY_HERE",
+  secret_key    = "SECRET_KEY_HERE",                // You can use environment valriables here to store all the confidential data rather than hard coding it.
   region        = "us-east-1"
 }
 
